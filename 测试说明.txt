@@ -1,0 +1,17 @@
+项目目前由两部分组成，seasons-backend文件夹里面是后端，seasons文件夹里面是前端
+
+测试时请先进入seasons-backend文件夹，运行命令行，输入以下命令：
+1. pip install -r requirements.txt
+2. flask --app app run
+
+（可能需要事先安装pip）
+
+成功后应看到控制台显示Flask App运行成功
+
+后端部署成功后进入seasons文件夹，打开新的命令行，运行以下命令：
+1. npm install --force
+2. npm start
+
+（可能需要事先安装npm）
+
+成功后打开浏览器访问 http://localhost:3000/ 进行测试

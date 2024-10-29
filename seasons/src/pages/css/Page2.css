@@ -1,0 +1,51 @@
+/* src/pages/Page2.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+    background-color: #f0f0f0;
+}
+
+.page2-container {
+    background-color: #c2c2c2;  /* Light red background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+}
+
+.camera-wrapper {
+    width: 300px;  /* Narrow vertical width */
+    height: 480px; /* Height for the video */
+    overflow: hidden;  /* Hide content outside the wrapper */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #000;
+    position: relative;  /* Allow positioning of video */
+}
+
+.video {
+    width: auto;  /* Keep aspect ratio */
+    height: 100%;  /* Make sure the video covers the container's height */
+    position: absolute;  /* Position absolutely to cover the container */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);  /* Center the video horizontally */
+}
+
+.capture-button {
+    padding: 15px 30px;  /* Bigger padding for the button */
+    font-size: 1.5rem;    /* Larger font size */
+    border-radius: 25px;  /* Rounded corners */
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
